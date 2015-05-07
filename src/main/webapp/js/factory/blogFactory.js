@@ -9,6 +9,8 @@ app.factory('blogFactory', ['$http', function($http) {
 
     var urlBase = '/data/blogList.json';
     var urlDonors = '/data/donors.json';
+    var blogUrl = '/data/blogDetails/';
+    var jsonExt = '.json';
     var blogFactory = {};
 
     blogFactory.getAllBlogs = function () {
@@ -17,6 +19,10 @@ app.factory('blogFactory', ['$http', function($http) {
 
     blogFactory.getAllDonors = function () {
         return $http.get(urlDonors)
+    };
+
+    blogFactory.getBlog = function (id) {
+        return $http.get(blogUrl + id + jsonExt)
     };
 
 /*    productFactory.getProduct = function (id) {

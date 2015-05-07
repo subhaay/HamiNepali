@@ -38,6 +38,12 @@ app.config(function ($routeProvider) {
             controller: 'blogController'
         })
 
+        // route for the view1 page
+        .when('/blog/:id', {
+            templateUrl: 'partials/blogDetails.html',
+            controller: 'detailController'
+        })
+
         // route for the contact page
         .otherwise({redirectTo: '/home'});
 });

@@ -1,58 +1,60 @@
 <!-- Page Content -->
 <div class="container">
-	<div class="row">
-		<!-- Blog Entries Column -->
-		<div class="col-md-9">
-			<!-- First Blog Post -->
-			<div class="row">
-				<div ng-repeat="blog in blogs | filter:filter.title">
-					<div class="well">
-						<div class="col-sm-9 col-lg-9 col-md-9">
-							<div class="caption">
-								<div class="blogTitle">
-								<a href="#/product/{{product.id}}">{{blog.title}}</a>
-									<br/>
-								</div>
-								<div class="postedby">
-									<span class="glyphicon glyphicon-time"></span> Posted by <b>{{blog.postedBy}}</b> 
-									on {{blog.timeStamp}}
-								</div>
-								<div class="content">
-								<p>{{blog.content | limitTo: 275}}...</p>
-								</div>
-							</div>
-							<div class="separator clear-left">
-								<p class="btn-details">
-									<i class="fa fa-list"></i><a href="#/product/{{product.id}}"
-										class="hidden-sm"> More details</a>
-								</p>
-							</div>
-						</div>
-						<img class="col-sm-3 col-lg-3 col-md-3 item-image"
-							src="{{blog.imgUrl}}" alt="">
-						<div class="clearfix"></div>
-					</div>
-				</div>
-			</div>
-			<!-- Pager -->
-			<ul class="pager">
-				<li class="previous"><a href="#">&larr; Older</a></li>
-				<li class="next"><a href="#">Newer &rarr;</a></li>
-			</ul>
-		</div>
-		<!-- Blog Sidebar Widgets Column -->
-		<div class="col-md-3">
-			<div class="input-group">
-				<input type="text" class="form-control"
-					placeholder="Blog Search...." ng-model="filter.title"> <span
-					class="input-group-btn">
+    <div class="row">
+        <!-- Blog Entries Column -->
+        <div class="col-md-9">
+            <!-- First Blog Post -->
+            <div class="row">
+                <div ng-repeat="blog in blogs | filter:filter.title">
+                    <div class="well">
+                        <div class="col-sm-9 col-lg-9 col-md-9">
+                            <div class="caption">
+                                <div class="blogTitle">
+                                    <a href="#/blog/{{blog.id}}">{{blog.title}}</a>
+                                    <br/>
+                                </div>
+                                <div class="postedby">
+                                    <span class="glyphicon glyphicon-time"></span> Posted by <b>{{blog.postedBy}}</b>
+                                    on {{blog.timeStamp}}
+                                </div>
+                                <div class="content">
+                                    <p>{{blog.content | limitTo: 275}}...</p>
+                                </div>
+                            </div>
+                            <div class="separator clear-left">
+                                <p class="btn-details">
+                                    <i class="fa fa-list"></i><a href="#/blog/{{blog.id}}"
+                                                                 class="hidden-sm"> More details</a>
+                                </p>
+                            </div>
+                        </div>
+                        <img class="col-sm-3 col-lg-3 col-md-3 item-image"
+                             src="{{blog.imgUrl}}" alt="">
+
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Pager -->
+            <ul class="pager">
+                <li class="previous"><a href="#">&larr; Older</a></li>
+                <li class="next"><a href="#">Newer &rarr;</a></li>
+            </ul>
+        </div>
+        <!-- Blog Sidebar Widgets Column -->
+        <div class="col-md-3">
+            <div class="input-group">
+                <input type="text" class="form-control"
+                       placeholder="Blog Search...." ng-model="filter.title"> <span
+                    class="input-group-btn">
 					<button class="btn btn-default" type="button">
-						<span class="glyphicon glyphicon-search"></span>
-					</button>
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
 				</span> {{title}}
-			</div>
-			<br />
-			<div ng-include src="'partials/sideBarRight.html'"></div>
-		</div>
-	</div>
+            </div>
+            <br/>
+
+            <div ng-include src="'partials/sideBarRight.html'"></div>
+        </div>
+    </div>
 </div>
