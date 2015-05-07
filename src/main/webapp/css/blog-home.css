@@ -32,6 +32,11 @@ footer {
     font-style: italic;
     font-size: 11px;
 }
+.postedby.details {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 13px;
+}
 .content {
 	margin-top: 2px;
 }
