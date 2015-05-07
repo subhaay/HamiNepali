@@ -5,14 +5,37 @@
  */
 
 body {
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: #464646;*/ 
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 footer {
     margin: 50px 0;
 }
-
+#footer {
+	background:#ffab62;
+	width:100%;
+	height:100px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
 .banner-img {
     width: 875px;
-	height: 100px
+	height: 100px;
+}
+.postedby {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 11px;
+}
+.content {
+	margin-top: 2px;
+}
+.blogTitle {
+	margin-top: -10px;
+	font-size: 19px;
 }

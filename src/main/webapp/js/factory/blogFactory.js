@@ -7,11 +7,16 @@
  */
 app.factory('blogFactory', ['$http', function($http) {
 
-    var urlBase = '/data/blog.json';
+    var urlBase = '/data/blogList.json';
+    var urlDonors = '/data/donors.json';
     var blogFactory = {};
 
     blogFactory.getAllBlogs = function () {
         return $http.get(urlBase)
+    };
+
+    blogFactory.getAllDonors = function () {
+        return $http.get(urlDonors)
     };
 
 /*    productFactory.getProduct = function (id) {

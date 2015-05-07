@@ -18,6 +18,26 @@ app.config(function ($routeProvider) {
             controller: 'blogController'
         })
 
+        .when('/contribute', {
+            templateUrl: 'partials/contribute.html',
+            controller: 'blogController'
+        })
+
+        .when('/members', {
+            templateUrl: 'partials/members.html',
+            controller: 'blogController'
+        })
+
+        .when('/about', {
+            templateUrl: 'partials/about.html',
+            controller: 'blogController'
+        })
+
+        .when('/contactUs', {
+            templateUrl: 'partials/contactUs.html',
+            controller: 'blogController'
+        })
+
         // route for the contact page
         .otherwise({redirectTo: '/home'});
 });

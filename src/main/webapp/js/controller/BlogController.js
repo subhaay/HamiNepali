@@ -10,9 +10,11 @@
  */
 app.controller("blogController", function ($scope, $location, blogFactory) {
     $scope.blogs;
+    $scope.donors;
 
     getBlogs();
-
+    getDonors();
+    
     function getBlogs() {
         blogFactory.getAllBlogs()
             .success(function (data) {
@@ -24,6 +26,15 @@ app.controller("blogController", function ($scope, $location, blogFactory) {
     }
 
 
+    function getDonors() {
+        blogFactory.getAllDonors()
+            .success(function (data) {
+                $scope.donors = data;
+            })
+            .error(function (error) {
+                $scope.status = 'Unable to load the donors: ' + error.message;
+            });
+    }
 });
 
 

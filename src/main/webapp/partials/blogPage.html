@@ -3,25 +3,23 @@
 	<div class="row">
 		<!-- Blog Entries Column -->
 		<div class="col-md-9">
-			<div class="row">
-				<img class ="banner-img" src="/images/pray-for-nepal.png" alt="">
-			</div>
-			<br />
 			<!-- First Blog Post -->
 			<div class="row">
 				<div ng-repeat="blog in blogs | filter:filter.title">
-					<div class="thumbnail">
-						<div class="col-sm-6 col-lg-6 col-md-6">
+					<div class="well">
+						<div class="col-sm-9 col-lg-9 col-md-9">
 							<div class="caption">
-								<h4>
-									<a href="#/product/{{product.id}}">{{blog.title}}</a>
-								</h4>
-								<p>
-									<span class="glyphicon glyphicon-time"></span> Posted by <b>{{blog.postedBy}}</b>
+								<div class="blogTitle">
+								<a href="#/product/{{product.id}}">{{blog.title}}</a>
+									<br/>
+								</div>
+								<div class="postedby">
+									<span class="glyphicon glyphicon-time"></span> Posted by <b>{{blog.postedBy}}</b> 
 									on {{blog.timeStamp}}
-								</p>
-								<hr>
-								<p>{{blog.content | limitTo: 350}}...</p>
+								</div>
+								<div class="content">
+								<p>{{blog.content | limitTo: 275}}...</p>
+								</div>
 							</div>
 							<div class="separator clear-left">
 								<p class="btn-details">
@@ -30,7 +28,7 @@
 								</p>
 							</div>
 						</div>
-						<img class="col-sm-6 col-lg-6 col-md-6 item-image"
+						<img class="col-sm-3 col-lg-3 col-md-3 item-image"
 							src="{{blog.imgUrl}}" alt="">
 						<div class="clearfix"></div>
 					</div>
@@ -44,43 +42,17 @@
 		</div>
 		<!-- Blog Sidebar Widgets Column -->
 		<div class="col-md-3">
-				<div class="input-group">
-					<input type="text" class="form-control"
-						placeholder="Blog Search...." ng-model="filter.title"> 
-						<span class="input-group-btn">
-							<button class="btn btn-default" type="button">
-								<span class="glyphicon glyphicon-search"></span>
-							</button>
-						</span> {{title}}
-				</div>
-				<br />
-			<!-- Side Widget Well -->
-			<div class="well">
-				<iframe src="http://www.nepcal.com/clock_e.php" frameborder="0"
-					scrolling="no" marginwidth="0" marginheight="0"
-					style="border: none; width: 249px; height: 120px;"
-					allowtransparency="true"></iframe>
+			<div class="input-group">
+				<input type="text" class="form-control"
+					placeholder="Blog Search...." ng-model="filter.title"> <span
+					class="input-group-btn">
+					<button class="btn btn-default" type="button">
+						<span class="glyphicon glyphicon-search"></span>
+					</button>
+				</span> {{title}}
 			</div>
-			<!-- Blog Categories Well -->
-			<div class="well">
-				<h4>Popular Nepali Websites</h4>
-				<div class="row">
-					<div class="weblink col-md-9">
-						<ul class="list-unstyled">
-							<li><a href="http://www.bbc.co.uk/nepali" target="_blank">BBC
-									Nepali Service</a></li>
-							<li><a href="http://www.ekantipur.com/" target="_blank">Kantipur
-									Publications</a></li>
-							<li><a href="http://gorkhapatraonline.com/" target="_blank">Gorkhar
-									Patra Online</a></li>
-							<li><a href="cybernepal.com.np" target="_blank">CyberNepal
-									Magazine</a></li>
-							<li><a href="http://www.shop.muncha.com/" target="_blank">Muncha
-									House</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+			<br />
+			<div ng-include src="'partials/sideBarRight.html'"></div>
 		</div>
 	</div>
 </div>
