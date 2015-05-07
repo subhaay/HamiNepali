@@ -1,0 +1,42 @@
+<!-- Donate Page Content -->
+<div class="container">
+	<div class="col-md-9">
+		<div class="col-md-6">
+			<h3>Member List:</h3>
+			<table class="well table">
+				<thead>
+					<tr>
+						<td>Development Team (Manoj KC / Abhishek Pokhrel )</td>
+					</tr>
+				</thead>
+			</table>
+			<table class="well table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Address</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<!-- Blog Sidebar Widgets Column -->
+	<div class="col-md-3">
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="Blog Search...."
+				ng-model="filter.name"> <span class="input-group-btn">
+				<button class="btn btn-default" type="button">
+					<span class="glyphicon glyphicon-search"></span>
+				</button>
+			</span> {{name}}
+		</div>
+		<br />
+		<div ng-include src="'partials/sideBarRight.html'"></div>
+	</div>
+</div>

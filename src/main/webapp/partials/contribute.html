@@ -1,0 +1,65 @@
+<!-- Donate Page Content -->
+<div class="container">
+	<div class="col-md-9">
+		<div class="col-md-9">
+			<h3>Nepal Earthquake Relief Fund</h3>
+			<p>Please donate via :</p>
+			<table class="well table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Bank</th>
+						<th>Transfer via Email</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Sushil Adhikari</td>
+						<td>Paypal</td>
+						<td>sushilok@gmail.com</td>
+					</tr>
+					<tr>
+						<td>Sushil Adhikari</td>
+						<td>Wells Fargo</td>
+						<td>sushilok@hotmail.com</td>
+					</tr>
+					<tr>
+						<td>Ram Sharma</td>
+						<td>Bank of America</td>
+						<td>ramchandra008@gmail.com</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="col-md-6">
+			<h4>Contributor List:</h4>
+			<table class="well table">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Address</th>
+						<th>Amount ($)</th>
+					</tr>
+				</thead>
+				<tr ng-repeat="donor in donors | filter:filter.name">
+					<td>{{donor.name}}</td>
+					<td>{{donor.address}}</td>
+					<td>{{donor.amount}}</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!-- Blog Sidebar Widgets Column -->
+	<div class="col-md-3">
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="Blog Search...."
+				ng-model="filter.name"> <span class="input-group-btn">
+				<button class="btn btn-default" type="button">
+					<span class="glyphicon glyphicon-search"></span>
+				</button>
+			</span> {{name}}
+		</div>
+		<br />
+		<div ng-include src="'partials/sideBarRight.html'"></div>
+	</div>
+</div>
