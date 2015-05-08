@@ -10,11 +10,17 @@ app.directive('ngClock', [
 		function($timeout) {
 			return {
 				restrict : 'E',
-				template : '{{date.getHours() | pad}}'
+				template : '{{mth}}' + ' {{date.getDate() | pad}}'
+						+ ', {{date.getFullYear() | pad}}'
+						+ ' {{date.getHours() | pad}}'
 						+ ':{{date.getMinutes() | pad}}'
-						+ ':{{date.getSeconds() | pad}}' + ' EST',
+						+ ':{{date.getSeconds() | pad}}' + ' ET',
 				controller : function($scope, $element) {
+					var monthNames = [ "January", "February", "March", "April",
+							"May", "June", "July", "August", "September",
+							"October", "November", "December" ];
 					$scope.date = new Date();
+					$scope.mth = monthNames[$scope.date.getMonth()];
 
 					var tick = function() {
 						$scope.date = new Date();
@@ -23,5 +29,4 @@ app.directive('ngClock', [
 					$timeout(tick, 1000);
 				}
 			}
-
 		} ]);
