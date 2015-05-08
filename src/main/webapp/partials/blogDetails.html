@@ -15,7 +15,37 @@
                 </div>
             </div>
             <br/>
-            <img class="img-responsive" aria-setsize="800x300" src="{{blog.img[0].url}}" alt="">
+            <!-- <img class="img-responsive" aria-setsize="800x300" src="{{blog.img[0].url}}" alt="">-->
+
+            <div class="slider">
+                <img ng-repeat="image in blog.img" class="slide slide-animation nonDraggableImage"
+                     ng-swipe-right="nextSlide()" ng-swipe-left="prevSlide()"
+                     ng-hide="!isCurrentSlideIndex($index)" ng-src="{{image.url}}">
+
+                <span class="arrow prev"  ng-click="nextSlide()"></span>
+                <span class="arrow next" ng-click="prevSlide()"></span>
+           <!--     <nav class="nav1">
+                    <div class="wrapper">
+                        <ul class="dots">
+                            <li class="dot" ng-repeat="image in blog.img">
+                                <button ng-class="{'active':isCurrentSlideIndex($index)}"
+                                   ng-click="setCurrentSlideIndex($index);"></button></li>
+                        </ul>
+                    </div>
+                </nav>-->
+            </div>
+
+         <!--   <div class="col-md-9" style="height: 305px">
+                <carousel interval="3000">
+                    <slide ng-repeat="image in blog.img" active="slide.active">
+                        <img ng-src="{{image.url}}" style="margin:auto;">
+                        <div class="carousel-caption">
+                            <h4>Slide {{$index}}</h4>
+                            <p>Pray 4 Nepal</p>
+            </div>
+                    </slide>
+                </carousel>
+            </div>-->
 
             <br/>
 
