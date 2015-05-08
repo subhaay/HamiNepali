@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-var app = angular.module('hamiNepali', ['ngRoute', 'ngResource']);
+var app = angular.module('hamiNepali', ['ngRoute', 'ngResource', 'ngAnimate', 'ngTouch']);
 
 // configure our routes
 app.config(function ($routeProvider) {
