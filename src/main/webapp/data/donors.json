@@ -1,12 +1,287 @@
 [  
    {  
-      "name":"Manoj KC",
+      "name":"ECKJH ko HomeAway Fund",
       "address":"US",
-      "amount":"150"
+      "amount":"300.00"
    },
    {  
+      "name":"Jay R Baral",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Kiran Timilsina",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Sushil Adhikari",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Ram Sharma",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Jeevan Neupane",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Pradeep Neupane",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Puskar Sigdel",
+      "address":"US",
+      "amount":"101.00"
+   },
+   {  
+      "name":"Binaya Luitel",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Raj K Malla",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Sagar Sapkota",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Sandii Khanal",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Manoj KC",
+      "address":"US",
+      "amount":"150.00"
+   },
+   {  
+      "name":"Udeep Paudel",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Ashok Rijal",
+      "address":"US",
+      "amount":"150.00"
+   },
+   {  
+      "name":"Ganesh Paudel",
+      "address":"US",
+      "amount":"105.55"
+   },
+   {  
+      "name":"Laxman Thapa Chhetri ",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Surya Aryal",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Shyam Adhikari",
+      "address":"US",
+      "amount":"101.00"
+   },
+   {  
+      "name":"Pushpa KC",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Bigyan Kattel",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Bijendra B Singh",
+      "address":"US",
+      "amount":"101.00"
+   },
+   {  
+      "name":"Ashish Rijal",
+      "address":"US",
+      "amount":"50.00"
+   },
+   {  
+      "name":"Sahas Shrestha",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Sanjog Sharma",
+      "address":"US",
+      "amount":"50.00"
+   },
+   {  
+      "name":"Prawesh Rijal",
+      "address":"US",
+      "amount":"25.00"
+   },
+   {  
+      "name":"Ujwal Pandey",
+      "address":"US",
+      "amount":"175.00"
+   },
+   {  
+      "name":"Milan Maharjan",
+      "address":"US",
+      "amount":"150.00"
+   },
+   {  
+      "name":"Santosh Bhandari",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Erin Lewakowski",
+      "address":"US",
+      "amount":"20.00"
+   },
+   {  
+      "name":"Balaji Kuna",
+      "address":"US",
+      "amount":"150.00"
+   },
+   {  
+      "name":"Sriram Pasupuleti",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Sid, Frankfort",
+      "address":"US",
+      "amount":"20.00"
+   },
+   {  
+      "name":"Lorraine/Richard Castranio",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Jonathan Relyea",
+      "address":"US",
+      "amount":"15.00"
+   },
+   {  
+      "name":"Nancy Easterling",
+      "address":"US",
+      "amount":"75.00"
+   },
+   {  
+      "name":"Sarah Branon",
+      "address":"US",
+      "amount":"200.00"
+   },
+   {  
+      "name":"Ramesh Gehi",
+      "address":"US",
+      "amount":"101.00"
+   },
+   {  
+      "name":"Xia Zhu",
+      "address":"US",
+      "amount":"50.00"
+   },
+   {  
+      "name":"Lomante",
+      "address":"US",
+      "amount":"25.00"
+   },
+   {  
+      "name":"Anonymous",
+      "address":"US",
+      "amount":"324.00"
+   },
+   {  
+      "name":"Sandip Adhikari",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Joe D'onoforio (thru Sushil Adhikari)",
+      "address":"US",
+      "amount":"20.00"
+   },
+   {  
+      "name":"Sanjay Dhakal",
+      "address":"US",
+      "amount":"50.00"
+   },
+   {  
+      "name":"Rajan Devkota",
+      "address":"US",
+      "amount":"50.00"
+   },
+   {  
+      "name":"Kamana Khadka",
+      "address":"US",
+      "amount":"50.00"
+   },
+   {  
+      "name":"Ajay R Bagale",
+      "address":"US",
+      "amount":"151.00"
+   },
+   {  
+      "name":"Ghanendra Mishra",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Rachana Acharya",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Utsav Dhungana",
+      "address":"US",
+      "amount":"50.00"
+   },
+   {  
+      "name":"CHFS Staff",
+      "address":"US",
+      "amount":"40.00"
+   },
+   {  
+      "name":"Badri Khanal",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Kamalesh Badathala",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Pradep Goel",
+      "address":"US",
+      "amount":"20.00"
+   },
+   {  
+      "name":"Brent Basom",
+      "address":"US",
+      "amount":"100.00"
+   },
+   {  
+      "name":"Madan Krishna Acharya",
+      "address":"US",
+      "amount":"50.00"
+   },
+      {  
       "name":"Abhishek Pokhrel",
       "address":"US",
-      "amount":"50"
+      "amount":"50.00"
    }
 ]
