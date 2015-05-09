@@ -1,15 +1,41 @@
 {  
-   "id":1,
-   "title":"Nepal Earthquake Relief Fund activities",
-   "postedBy":"Sushil Adhikari",
+   "id":2,
+   "title":"Sent Medical Supplies and blankets to Earthquake victims in Nepal",
+   "postedBy":"Manoj KC",
    "category":"",
-   "timeStamp":"April 26, 2015",
-   "content":"As an effort to help the recent earthquake victims of Nepal, we started this fundraiser. Total amount collected so far is $3183.55. East Coast Ka Janta Haru (ECKJH)  ko Homeaway fund: $300 , Jay R Baral: $100 , Kiran Timilsina: $100, Sushil Adhikari: $100, Rajan Ghimire: $100, Ram Sharma: $100 ,Jeevan Neupane: $100, Pradeep Neupane: $100, Puskar Sigdel: $101, Binaya Luitel: $100 , Raj K Malla: $100, Sagar Sapkota: $100,Sandii Khanal: $100 ,Manoj KC: $150, Udeep Paudel: $100,Ashok Rijal: $150, Ganesh Paudel: $105.55,Laxman Thapa Chhetri: $100,Surya Aryal: $100,Shyam Adhikari: $101,Pushpa KC: $100,Bigyan Kattel: $100,Bijendra B Singh: $101 ,Ashish Rijal: $50,Sahas Shrestha: $100,Sanjog Sharma: $50,Prawesh Rijal: $25,Ujwal Pandey: $100,Milan Maharjan: $150 ,Santosh Bhandari: $100",
+   "timeStamp":"April 27, 2015",
+   "content":" Medical supplies were purchased from Wal-Mart by Shikshya Baral/Manoj KC to send to Nepal thru American Red Cross. Supplies included arm, knee and ankle slings, batteries, blankets, first-aid kit, peroxides, blankets and such. These items are already dropped off at the drop off location. Total Expenditures: $555.91. So kudos to all of us. If are you are in DMV area they need help packing it. Drop off Location: 14736 Pickets Post Rd, Centreville, VA 20121 US",
    "img":[  
       {  
          "id":1,
          "caption":"",
-         "url":"images/pray-for-nepal.png"
+         "url":"images/1a.jpg"
+      },
+      {  
+         "id":2,
+         "caption":"",
+         "url":"images/1b.jpg"
+      },
+      {  
+         "id":3,
+         "caption":"",
+         "url":"images/1c.jpg"
+      },
+      {  
+         "id":3,
+         "caption":"",
+         "url":"images/1d.jpg"
+      },
+      {  
+         "id":5,
+         "caption":"",
+         "url":"images/1e.jpg"
+      }
+      ,
+      {  
+         "id":6,
+         "caption":"",
+         "url":"images/1f.jpg"
       }
    ]
 }

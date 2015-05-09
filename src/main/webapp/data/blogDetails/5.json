@@ -1,15 +1,14 @@
 {  
-   "id":5,
-   "title":"Sent tents, food to Gorkha Ward No. 8",
-   "postedBy":"Bigyan Kattel",
-   "category":"",
-   "timeStamp":"April 28, 2015",
-   "content":"Sent $505.00 to Nepal (via Western Union) to Mr. Bishal Basnyat of United Club (known thru Bigyan Kattel) to buy tents, foods etc. for Gorkha Ward No. 8. ",
-   "img":[  
-      {  
+      "id":5,
+      "title":"Sent sanitation stuffs near Sankhu, Kathmandu",
+      "postedBy":"Sushil Adhikari",
+      "category":"",
+      "timeStamp":"April 29, 2015",
+      "content":" Sent $350.00 to Nepal to Mr. Pratik Shrestha by Sahas Shrestha whose team helped the victims  mostly providing sanitation stuffs near Sankhu, Kathmandu.",
+   	  "img":[  
+       {  
          "id":1,
          "caption":"",
-         "url":"images/united.jpg"
-      }
-   ]
+         "url":""
+       }]
 }

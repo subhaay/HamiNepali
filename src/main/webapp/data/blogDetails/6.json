@@ -1,15 +1,14 @@
 {  
-   "id":6,
-   "title":"Sent tents, food to Dhading",
-   "postedBy":"Sushil Adhikari",
-   "category":"",
-   "timeStamp":"April 28, 2015",
-   "content":"Sent $605.00 to Nepal (via Western Union) to Mr. Bishwo Subedi  whose team is leaving to Dhading with necessary items for the victims through.",
-   "img":[  
-      {  
+     "id":6,
+      "title":"Relief items were sent to Sindhupalchok",
+      "postedBy":"Sushil Adhikari",
+      "category":"",
+      "timeStamp":"April 30, 2015",
+      "content":"Sent $1000.00 to Nepal to Mr. Balkrishna Paudel on 04/30/2015 thru Sahas Shrestha whose team is going to and will go to affected areas of Sindhupalchok etc.",
+ 	  "img":[  
+       {  
          "id":1,
          "caption":"",
-         "url":"images/pray-for-nepal3.png"
-      }
-   ]
+         "url":""
+       }]
 }

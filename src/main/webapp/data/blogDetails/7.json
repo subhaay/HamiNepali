@@ -1,15 +1,14 @@
 {  
-   "id":7,
-   "title":"Added Donors : Thank you for your generosity",
-   "postedBy":"Sushil Adhikari",
-   "category":"",
-   "timeStamp":"April 29, 2015",
-   "content":" Joe D'onoforio : $20.00 , Sanjay Dhakal : $50.00 , Rajan Devkota : $50.00 , Kamana Khadka : $50.00 , Ajay R Bagale : $151.00 , Ghanendra Mishra : $100.00,  Rachana  Acharya : $100.00",
-   "img":[  
-      {  
+     "id":7,
+      "title":"Sent foods, water supply and tents to Sindhupalchowk",
+      "postedBy":"Sushil Adhikari",
+      "category":"",
+      "timeStamp":"April 30, 2015",
+      "content":"Provided $200 to Navaraj Acharya (Ex. Kantipur TV associate) on 04/30/2015, who is coordinating with the volunteer friends from KTV who are trying to reach out for  urgent help with some food, water supply & some tents to sindhupalchowk & other places where people are still awaiting for basic needs.",
+  	  "img":[  
+       {  
          "id":1,
          "caption":"",
-         "url":"images/pray-for-nepal4.png"
-      }
-   ]
+         "url":""
+       }]
 }
