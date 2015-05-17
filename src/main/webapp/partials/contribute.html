@@ -36,12 +36,14 @@
 			<table class="well table">
 				<thead>
 					<tr>
+						<th>ID</th>
 						<th>Name</th>
 						<th>Address</th>
 						<th>Amount ($)</th>
 					</tr>
 				</thead>
-				<tr ng-repeat="donor in donors | filter:filter.name">
+				<tr ng-repeat="donor in donors | orderBy:'-id' | filter:filter.name">
+					<td>{{donor.id}}</td>
 					<td>{{donor.name}}</td>
 					<td>{{donor.address}}</td>
 					<td>{{donor.amount}}</td>
